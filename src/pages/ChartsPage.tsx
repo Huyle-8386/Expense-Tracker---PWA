@@ -21,7 +21,7 @@ type ChartsPageProps = {
   transactions: Transaction[];
 };
 
-const ChartsPage: React.FC<ChartsPageProps> = ({ balances, transactions }) => {
+const ChartsPage: React.FC<ChartsPageProps> = ({transactions }) => {
   const [filter, setFilter] = useState<string>("all");
   const COLORS = ["#46BB1D", "#FC00A8", "#04BFDA", "#FFA84A", "#9B88ED"];
 
