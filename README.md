@@ -17,9 +17,13 @@
    cd <project-folder>
 
 2. Cài đặt dependencies:
+  ```bash
   npm install
 
 3. Chạy dự án ở chế độ phát triển:
+  ```bash
   npm run dev
 
+4. Xem demo dự án tại:
+  https://huyle-8386.github.io/Expense-Tracker---PWA/
 
